@@ -1,0 +1,49 @@
+---
+canvas: "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p15"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "person",
+            "purpose": "tagging",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-11-13T14:04:49.450Z",
+            "modified": "2025-11-13T14:04:49.949Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Raffaello",
+            "purpose": "identifying",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-11-13T14:04:52.172Z",
+            "modified": "2025-11-13T14:04:58.618Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://dl.ficlit.unibo.it/iiif/19266/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p15",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=784.9383544921875,1007.7288818359375,159.46478271484375,62.0140380859375"
+        }
+    },
+    "id": "636f1b37-0404-4952-b052-e28146f5c258.json",
+    "motivation": "commenting"
+}
