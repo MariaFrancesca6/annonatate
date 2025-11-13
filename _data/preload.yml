@@ -1,3 +1,10 @@
-images: []
+images:
+- added: '2025-11-13 14:03:38.844400'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/3a0051f4b76acb3f68e7d78ffb78db1a34ee9447.jpg
+  title: Raimondi, Giuseppe. Quaderno manoscritto, "Verga nel paesaggio siciliano
+    ; Gli artisti nel loro studio. 20.12.961"
+  url: https://dl.ficlit.unibo.it/iiif/19266/manifest
+  user: MariaFrancesca6
 settings: {}
 version: '2.1'
