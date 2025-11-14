@@ -1,0 +1,38 @@
+---
+canvas: "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p4"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Giuseppe Raimondi\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-11-14T10:50:17.039Z",
+            "modified": "2025-11-14T10:50:21.945Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://dl.ficlit.unibo.it/iiif/19266/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p4",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=795.4930419921875,1028.5810546875,460.6414794921875,185.4921875"
+        }
+    },
+    "id": "a1b9708b-dc49-4ca7-997b-2d03390b02aa.json",
+    "motivation": "commenting"
+}
