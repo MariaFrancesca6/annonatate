@@ -1,4 +1,10 @@
 images:
+- added: '2025-11-26 10:40:45.583291'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/8a06614da918d3c090904efb4bb0941182425895.jpg
+  title: 'Raimondi, Giuseppe. Quaderno manoscritto, "Guido. 1954 : ("Io Guido Reni")"'
+  url: https://dl.ficlit.unibo.it/iiif/19321/manifest
+  user: MariaFrancesca6
 - added: '2025-11-13 14:03:38.844400'
   iiif: true
   thumbnail: https://dl.ficlit.unibo.it/files/medium/3a0051f4b76acb3f68e7d78ffb78db1a34ee9447.jpg
