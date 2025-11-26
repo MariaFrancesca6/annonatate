@@ -1,4 +1,11 @@
 images:
+- added: '2025-11-26 10:41:52.960473'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/a0610a17e9c37f4fcfced6ca5295bdd67c1871da.jpg
+  title: 'Raimondi, Giuseppe. Quaderno manoscritto, "Pittori toscani sul muro : mostra
+    al Forte di Firenze : 1. agosto 1957"'
+  url: https://dl.ficlit.unibo.it/iiif/19195/manifest
+  user: MariaFrancesca6
 - added: '2025-11-26 10:41:21.172632'
   iiif: true
   thumbnail: https://dl.ficlit.unibo.it/files/medium/435822d18a29f7f2950a8cd24e005d26941dcbf1.jpg
