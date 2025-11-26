@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "test",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-annotation annotationurl='https://mariafrancesca6.github.io/annonatate/annotations/7-7e-powersbiblequilt-1886-jpg-list.json'></iiif-annotation>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
