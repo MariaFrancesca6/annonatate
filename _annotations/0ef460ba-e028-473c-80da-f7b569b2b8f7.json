@@ -1,0 +1,38 @@
+---
+canvas: "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Titolo dell'articolo contenuto nel quaderno",
+            "purpose": "commenting",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-11-26T09:31:00.828Z",
+            "modified": "2025-11-26T09:31:14.680Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://dl.ficlit.unibo.it/iiif/19266/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=588.19140625,807.65966796875,673.2957763671875,141.74652099609375"
+        }
+    },
+    "id": "0ef460ba-e028-473c-80da-f7b569b2b8f7.json",
+    "motivation": "commenting"
+}
