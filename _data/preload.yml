@@ -1,4 +1,11 @@
 images:
+- added: '2025-11-26 10:43:11.399213'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/d3a334213af3ceb391ca0ecc6df49f3e3aee3fea.jpg
+  title: Raimondi, Giuseppe. Quaderno manoscritto, "Storia di Carlo Carra. Gennaio
+    1961"
+  url: https://dl.ficlit.unibo.it/iiif/19310/manifest
+  user: MariaFrancesca6
 - added: '2025-11-26 10:42:31.838871'
   iiif: true
   thumbnail: https://dl.ficlit.unibo.it/files/medium/8edefc6b2d263b023b48deeb924c7964c6f605af.jpg
