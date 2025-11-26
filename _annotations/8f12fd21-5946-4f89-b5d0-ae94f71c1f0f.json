@@ -1,0 +1,38 @@
+---
+canvas: "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p16"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "citazione dal libro di Robertson su Pollock",
+            "purpose": "commenting",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-11-26T09:25:36.638Z",
+            "modified": "2025-11-26T09:25:54.806Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://dl.ficlit.unibo.it/iiif/19266/manifest",
+                "type": "Manifest"
+            },
+            "id": "https://dl.ficlit.unibo.it/iiif/2/19266/canvas/p16",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=213.1537628173828,844.57275390625,1480.9553680419922,630.4765625"
+        }
+    },
+    "id": "8f12fd21-5946-4f89-b5d0-ae94f71c1f0f.json",
+    "motivation": "commenting"
+}
