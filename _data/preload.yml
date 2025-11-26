@@ -1,4 +1,10 @@
 images:
+- added: '2025-11-26 10:44:23.478723'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/2a9328ce576c9c5c39da95d431cd08a6418a00a0.jpg
+  title: Raimondi, Giuseppe. Quaderno manoscritto, "Giotto. 12.3.1959"
+  url: https://dl.ficlit.unibo.it/iiif/19312/manifest
+  user: MariaFrancesca6
 - added: '2025-11-26 10:43:55.475784'
   iiif: true
   thumbnail: https://dl.ficlit.unibo.it/files/medium/f105dfcfc8aec4640211dfda44ed5422eab8a616.jpg
