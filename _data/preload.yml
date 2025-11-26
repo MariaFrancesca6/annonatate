@@ -1,4 +1,11 @@
 images:
+- added: '2025-11-26 10:42:31.838871'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/8edefc6b2d263b023b48deeb924c7964c6f605af.jpg
+  title: Raimondi, Giuseppe. Quaderno manoscritto, "Per le strade di Bologna. 3.12.1958
+    ; A proposito di A. Modigliani. 8.2.1959"
+  url: https://dl.ficlit.unibo.it/iiif/19323/manifest
+  user: MariaFrancesca6
 - added: '2025-11-26 10:41:52.960473'
   iiif: true
   thumbnail: https://dl.ficlit.unibo.it/files/medium/a0610a17e9c37f4fcfced6ca5295bdd67c1871da.jpg
