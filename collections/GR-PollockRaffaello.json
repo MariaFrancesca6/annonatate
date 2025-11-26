@@ -9,6 +9,12 @@
             "title": "",
             "description": "",
             "thumbnail": ""
+        },
+        {
+            "board": "<iiif-annotation annotationurl='https://mariafrancesca6.github.io/annonatate/annotations/2-19266-p16-list.json'></iiif-annotation>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
         }
     ]
 }
