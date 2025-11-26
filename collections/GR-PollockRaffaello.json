@@ -1,0 +1,14 @@
+---
+---
+{
+    "label": "GR-PollockRaffaello",
+    "type": "storyboardlist",
+    "items": [
+        {
+            "board": "<iiif-annotation annotationurl='https://mariafrancesca6.github.io/annonatate/annotations/2-19266-p15-list.json'></iiif-annotation>",
+            "title": "",
+            "description": "",
+            "thumbnail": ""
+        }
+    ]
+}
