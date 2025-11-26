@@ -1,0 +1,38 @@
+---
+canvas: "https://dl.ficlit.unibo.it/iiif/2/19138/canvas/p1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "desiderio fra le donne",
+            "purpose": "commenting",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-11-26T10:20:34.956Z",
+            "modified": "2025-11-26T10:20:38.264Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://mariafrancesca6.github.io/GR-ek/manifests/iiif/19138/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://dl.ficlit.unibo.it/iiif/2/19138/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=372.8277587890625,408.8351745605469,988.879150390625,602.1831359863281"
+        }
+    },
+    "id": "9eb2978a-9277-4b35-b580-b57feb2d2173.json",
+    "motivation": "commenting"
+}
