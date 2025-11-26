@@ -1,4 +1,11 @@
 images:
+- added: '2025-11-26 10:41:21.172632'
+  iiif: true
+  thumbnail: https://dl.ficlit.unibo.it/files/medium/435822d18a29f7f2950a8cd24e005d26941dcbf1.jpg
+  title: Raimondi, Giuseppe. Quaderno manoscritto, "Il Pontormo ; Lorenzo Montano.
+    2 aprile '56, 2 maggio '56"
+  url: https://dl.ficlit.unibo.it/iiif/19386/manifest
+  user: MariaFrancesca6
 - added: '2025-11-26 10:40:45.583291'
   iiif: true
   thumbnail: https://dl.ficlit.unibo.it/files/medium/8a06614da918d3c090904efb4bb0941182425895.jpg
