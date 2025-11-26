@@ -1,0 +1,37 @@
+name: convert_images_raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958
+on: workflow_dispatch
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  convertimages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+      - name: PDF fix
+        run: sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xml.off && sudo apt-get update && sudo apt-get install -y ghostscript-x
+      - name: poppler
+        run: sudo apt-get install -y poppler-utils
+      - name: pip install
+        run: pip3 install iiif pdf2image Pillow iiif-prezi pyIIIFpres
+      - name: runscript
+        run: python3 -c "exec(\"from iiif.static import IIIFStatic\nfrom IIIFpres import iiifpapi3\nfrom PIL import Image\nimport os\nfrom pdf2image import convert_from_path\nfrom iiif_prezi.factory import ManifestFactory\nimport yaml\n\nfiles = [('images/0001Q1958230001piattoantr.jpg', '0001_Q_1958_23_0001_piatto_ant_r'), ('images/0002Q1958230002risguardoantv.jpg', '0002_Q_1958_23_0002_risguardo_ant_v'), ('images/0003Q1958230003c1r.jpg', '0003_Q_1958_23_0003_c1r'), ('images/0004Q1958230004c1v.jpg', '0004_Q_1958_23_0004_c1v'), ('images/0005Q1958230005c2r.jpg', '0005_Q_1958_23_0005_c2r'), ('images/0006Q1958230006c2v.jpg', '0006_Q_1958_23_0006_c2v'), ('images/0007Q1958230007c3r.jpg', '0007_Q_1958_23_0007_c3r'), ('images/0008Q1958230008c3v.jpg', '0008_Q_1958_23_0008_c3v'), ('images/0009Q1958230009c4r.jpg', '0009_Q_1958_23_0009_c4r'), ('images/0010Q1958230010c4v.jpg', '0010_Q_1958_23_0010_c4v'), ('images/0011Q1958230011c5r.jpg', '0011_Q_1958_23_0011_c5r'), ('images/0012Q1958230012c5v.jpg', '0012_Q_1958_23_0012_c5v'), ('images/0013Q1958230013c6r.jpg', '0013_Q_1958_23_0013_c6r'), ('images/0014Q1958230014c6v.jpg', '0014_Q_1958_23_0014_c6v'), ('images/0015Q1958230015c7r.jpg', '0015_Q_1958_23_0015_c7r'), ('images/0016Q1958230016c7v.jpg', '0016_Q_1958_23_0016_c7v'), ('images/0017Q1958230017c8r.jpg', '0017_Q_1958_23_0017_c8r'), ('images/0018Q1958230018c8v.jpg', '0018_Q_1958_23_0018_c8v'), ('images/0019Q1958230019c9r.jpg', '0019_Q_1958_23_0019_c9r'), ('images/0020Q1958230020c9v.jpg', '0020_Q_1958_23_0020_c9v'), ('images/0021Q1958230021c10r.jpg', '0021_Q_1958_23_0021_c10r'), ('images/0022Q1958230022c10v.jpg', '0022_Q_1958_23_0022_c10v'), ('images/0023Q1958230023risguardopostr.jpg', '0023_Q_1958_23_0023_risguardo_post_r'), ('images/0024Q1958230024piattopostv.jpg', '0024_Q_1958_23_0024_piatto_post_v'), ('images/0025Q1958230025colori.jpg', '0025_Q_1958_23_0025_colori'), ('images/0026Q1958230026scala.jpg', '0026_Q_1958_23_0026_scala')]\nmanifestlabel = ''' Raimondi, Giuseppe. Quaderno manoscritto, &quot;I disegni &quot;romani&quot; di Ingres. Agosto 1958&quot;'''\ndst = os.path.join('img/derivatives/iiif/', 'raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958') + '/'\nbaseurl = os.path.join('https://mariafrancesca6.github.io/GR-ek/', dst)\ndata = []\nallfiles = []\nfor idx, filedict in enumerate(files):\n    file = filedict[0]\n    filepath,ext = file.rsplit('.', 1)\n    if ext == 'pdf':\n        images = convert_from_path(file)\n        for i in range(len(images)):\n            imagefilename = filepath + '-' + str(i) +'.jpg'\n            images[i].save(imagefilename, 'JPEG')\n            allfiles.append([imagefilename, filedict[1]])\n        os.remove(file)\n    elif ext != 'jpg' and ext != 'jpeg':\n        os.system('convert {} {}.jpg'.format(file, filepath))\n        allfiles.append(('%s.jpg'%filepath, filedict[1]))\n        os.remove(file)\n    else:\n        allfiles.append(filedict)\n\nfor filedict in allfiles:\n    file = filedict[0]\n    filepath,ext = file.rsplit('.', 1)\n    filename = os.path.basename(filepath)\n    if ext != 'jpg' and ext != 'jpeg':\n        os.system('convert {} {}.jpg'.format(file, filepath))\n    sg = IIIFStatic(prefix=baseurl, dst=dst)\n    sggenerate = sg.generate(file)\n    img = Image.open(file)\n    data.append((filename, img.width, img.height, os.path.join(baseurl, filename),'/full/full/0/default.jpg', filedict[1]))\n    iiiffulldir = os.path.join(dst, filename, 'full/full')\n    if not os.path.isdir(iiiffulldir):\n        os.mkdir(iiiffulldir)\n        iiiffulldir = os.path.join(iiiffulldir, '0')\n        os.mkdir(iiiffulldir)\n    else:\n        iiiffulldir = os.path.join(iiiffulldir, '0')\n    os.system('mv {} {}'.format(file, os.path.join(iiiffulldir, 'default.jpg')))\niiifpapi3.BASE_URL = baseurl\nmanifest = iiifpapi3.Manifest()\nmanifest.set_id(extendbase_url='manifest.json')\nmanifest.add_label('en',manifestlabel)\nmanifest.add_behavior('paged')\ndescription = manifest.add_summary('en', '''Copy of the original manifest''')\nmanifest.set_viewingDirection('left-to-right')\nrights = ''''''\nif rights:\n    try:\n        manifest.set_rights(rights)\n    except:\n        manifest.add_metadata('rights', rights, 'en', 'en')\n\ndata = tuple(data)\nfor idx,d in enumerate(data):\n    idx+=1\n    canvas = manifest.add_canvas_to_items()\n    canvas.set_id(extendbase_url='canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-%s'%idx)\n    canvas.set_height(d[2])\n    canvas.set_width(d[1])\n    canvas.add_label('en', d[5])\n    filteredallfiles = [f for f in os.listdir(os.path.join(dst, d[0], 'full')) if f != 'full' and int(f.split(',')[0]) > 70]\n    filteredallfiles.sort()\n    size = filteredallfiles[0] if len(filteredallfiles) > 0 else '80,'\n    thumbnail = canvas.add_thumbnail()\n    thumbnail.set_id('{}/full/{}/0/default.jpg'.format(d[3], size))\n    annopage = canvas.add_annotationpage_to_items()\n    annopage.set_id(extendbase_url='page/p%s/1' %idx)\n    annotation = annopage.add_annotation_to_items(target=canvas.id)\n    annotation.set_id(extendbase_url='annotation/p%s-image'%str(idx).zfill(4))\n    annotation.set_motivation('painting')\n    annotation.body.set_id(''.join(d[3:5]))\n    annotation.body.set_type('Image')\n    annotation.body.set_format('image/jpeg')\n    annotation.body.set_width(d[1])\n    annotation.body.set_height(d[2])\n    s = annotation.body.add_service()\n    s.set_id(d[3])\n    s.set_type('ImageService2')\n    s.set_profile('level1')\n\nmanifestpath = os.path.join(dst, 'manifest.json')\nmanifest.json_save(manifestpath)\nheaderinfo = {}\nheaderinfo['title']= manifestlabel\nheaderinfo['added']= '''2025-11-26 10&#58;49&#58;51.339975'''\nheaderinfo['thumbnail'] = manifest.items[0].thumbnail[0].id\nheaderinfo['user'] = '''MariaFrancesca6'''\nfilecontents = open(manifestpath).read()\nwith open(manifestpath, 'w') as f:\n    f.write('''---\n{}---\n'''.format(yaml.dump(headerinfo)))\n    f.write(filecontents)\n\")"
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git config pull.rebase false
+          git pull origin main
+          git add -A
+          git commit -m "Create raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958 manifest and IIIF derivatives" -a || echo "No changes to commit"
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
