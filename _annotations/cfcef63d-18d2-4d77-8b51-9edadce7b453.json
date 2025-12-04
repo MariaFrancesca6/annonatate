@@ -4,20 +4,21 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "I disegni \"romani\" di Ingres",
-            "purpose": "supplementing",
+            "created": "2025-12-04T14:35:39.638Z",
             "creator": {
                 "id": "MariaFrancesca6",
                 "name": "MariaFrancesca6"
             },
-            "created": "2025-12-04T14:35:39.638Z",
-            "modified": "2025-12-04T14:35:51.229Z"
+            "modified": "2025-12-04T14:42:34.387Z",
+            "purpose": "supplementing",
+            "type": "TextualBody",
+            "value": "I disegni \"romani\""
         }
     ],
+    "id": "cfcef63d-18d2-4d77-8b51-9edadce7b453.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -30,9 +31,8 @@ order: 1
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=608.1630859375,407.16534423828125,632.51416015625,322.98590087890625"
+            "value": "xywh=608.1630859375,407.16534423828125,539.80517578125,81.7994384765625"
         }
     },
-    "id": "cfcef63d-18d2-4d77-8b51-9edadce7b453.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
