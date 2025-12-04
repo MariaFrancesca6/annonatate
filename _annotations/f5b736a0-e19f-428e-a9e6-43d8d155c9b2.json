@@ -1,0 +1,38 @@
+---
+canvas: "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": " di Ingres",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "MariaFrancesca6",
+                "name": "MariaFrancesca6"
+            },
+            "created": "2025-12-04T14:42:55.595Z",
+            "modified": "2025-12-04T14:42:58.133Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=813.0198974609375,499.4319763183594,260.18310546875,56.821563720703125"
+        }
+    },
+    "id": "f5b736a0-e19f-428e-a9e6-43d8d155c9b2.json",
+    "motivation": "commenting"
+}
