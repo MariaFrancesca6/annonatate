@@ -1,13 +1,9 @@
 ---
-added: 2025-11-26 10&#58;49&#58;51.339975
-thumbnail: https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr/full/112,/0/default.jpg
-title: ' Raimondi, Giuseppe. Quaderno manoscritto, &quot;I disegni &quot;romani&quot;
-  di Ingres. Agosto 1958&quot;'
-user: MariaFrancesca6
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -25,7 +21,7 @@ user: MariaFrancesca6
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -34,7 +30,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -42,35 +38,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0001Q1958230001piattoantr",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -79,7 +81,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0002Q1958230002risguardoantv/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0002Q1958230002risguardoantv/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -87,35 +89,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0002Q1958230002risguardoantv/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0002Q1958230002risguardoantv/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0002Q1958230002risguardoantv",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0002Q1958230002risguardoantv",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-2-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-3",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -124,7 +132,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0003Q1958230003c1r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0003Q1958230003c1r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -132,35 +140,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p3/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0003-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0003Q1958230003c1r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0003Q1958230003c1r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0003Q1958230003c1r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0003Q1958230003c1r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-3"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-3"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-3-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-4",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -169,7 +183,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0004Q1958230004c1v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0004Q1958230004c1v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -177,35 +191,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p4/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0004-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0004Q1958230004c1v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0004Q1958230004c1v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0004Q1958230004c1v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0004Q1958230004c1v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-4"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-4-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-5",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -214,7 +234,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0005Q1958230005c2r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0005Q1958230005c2r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -222,35 +242,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p5/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0005-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0005Q1958230005c2r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0005Q1958230005c2r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0005Q1958230005c2r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0005Q1958230005c2r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-5"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-5"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-5-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-6",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -259,7 +285,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0006Q1958230006c2v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0006Q1958230006c2v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -267,35 +293,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p6/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0006-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0006Q1958230006c2v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0006Q1958230006c2v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0006Q1958230006c2v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0006Q1958230006c2v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-6"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-6-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-7",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -304,7 +336,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0007Q1958230007c3r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0007Q1958230007c3r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -312,35 +344,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p7/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p7/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0007-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0007-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0007Q1958230007c3r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0007Q1958230007c3r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0007Q1958230007c3r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0007Q1958230007c3r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-7"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-7"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-7-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-8",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -349,7 +387,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0008Q1958230008c3v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0008Q1958230008c3v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -357,35 +395,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p8/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p8/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0008-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0008-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0008Q1958230008c3v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0008Q1958230008c3v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0008Q1958230008c3v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0008Q1958230008c3v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-8"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-8"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-8-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-9",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-9",
       "type": "Canvas",
       "label": {
         "en": [
@@ -394,7 +438,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0009Q1958230009c4r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0009Q1958230009c4r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -402,35 +446,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p9/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p9/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0009-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0009-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0009Q1958230009c4r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0009Q1958230009c4r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0009Q1958230009c4r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0009Q1958230009c4r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-9"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-9"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-9-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-10",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-10",
       "type": "Canvas",
       "label": {
         "en": [
@@ -439,7 +489,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0010Q1958230010c4v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0010Q1958230010c4v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -447,35 +497,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p10/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p10/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0010-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0010-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0010Q1958230010c4v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0010Q1958230010c4v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0010Q1958230010c4v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0010Q1958230010c4v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-10"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-10"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-10-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-11",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-11",
       "type": "Canvas",
       "label": {
         "en": [
@@ -484,7 +540,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0011Q1958230011c5r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0011Q1958230011c5r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -492,35 +548,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p11/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p11/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0011-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0011-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0011Q1958230011c5r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0011Q1958230011c5r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0011Q1958230011c5r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0011Q1958230011c5r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-11"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-11"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-11-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-12",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-12",
       "type": "Canvas",
       "label": {
         "en": [
@@ -529,7 +591,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0012Q1958230012c5v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0012Q1958230012c5v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -537,35 +599,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p12/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p12/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0012-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0012-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0012Q1958230012c5v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0012Q1958230012c5v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0012Q1958230012c5v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0012Q1958230012c5v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-12"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-12"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-12-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-13",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-13",
       "type": "Canvas",
       "label": {
         "en": [
@@ -574,7 +642,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0013Q1958230013c6r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0013Q1958230013c6r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -582,35 +650,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p13/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p13/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0013-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0013-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0013Q1958230013c6r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0013Q1958230013c6r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0013Q1958230013c6r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0013Q1958230013c6r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-13"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-13"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-13-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-14",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-14",
       "type": "Canvas",
       "label": {
         "en": [
@@ -619,7 +693,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0014Q1958230014c6v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0014Q1958230014c6v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -627,35 +701,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p14/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p14/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0014-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0014-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0014Q1958230014c6v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0014Q1958230014c6v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0014Q1958230014c6v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0014Q1958230014c6v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-14"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-14"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-14-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-15",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-15",
       "type": "Canvas",
       "label": {
         "en": [
@@ -664,7 +744,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0015Q1958230015c7r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0015Q1958230015c7r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -672,35 +752,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p15/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p15/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0015-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0015-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0015Q1958230015c7r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0015Q1958230015c7r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0015Q1958230015c7r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0015Q1958230015c7r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-15"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-15"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-15-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-16",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-16",
       "type": "Canvas",
       "label": {
         "en": [
@@ -709,7 +795,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0016Q1958230016c7v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0016Q1958230016c7v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -717,35 +803,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p16/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p16/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0016-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0016-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0016Q1958230016c7v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0016Q1958230016c7v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0016Q1958230016c7v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0016Q1958230016c7v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-16"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-16"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-16-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-17",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-17",
       "type": "Canvas",
       "label": {
         "en": [
@@ -754,7 +846,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0017Q1958230017c8r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0017Q1958230017c8r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -762,35 +854,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p17/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p17/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0017-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0017-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0017Q1958230017c8r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0017Q1958230017c8r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0017Q1958230017c8r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0017Q1958230017c8r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-17"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-17"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-17-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-18",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-18",
       "type": "Canvas",
       "label": {
         "en": [
@@ -799,7 +897,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0018Q1958230018c8v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0018Q1958230018c8v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -807,35 +905,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p18/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p18/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0018-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0018-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0018Q1958230018c8v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0018Q1958230018c8v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0018Q1958230018c8v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0018Q1958230018c8v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-18"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-18"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-18-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-19",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-19",
       "type": "Canvas",
       "label": {
         "en": [
@@ -844,7 +948,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0019Q1958230019c9r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0019Q1958230019c9r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -852,35 +956,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p19/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p19/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0019-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0019-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0019Q1958230019c9r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0019Q1958230019c9r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0019Q1958230019c9r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0019Q1958230019c9r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-19"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-19"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-19-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-20",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-20",
       "type": "Canvas",
       "label": {
         "en": [
@@ -889,7 +999,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0020Q1958230020c9v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0020Q1958230020c9v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -897,35 +1007,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p20/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p20/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0020-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0020-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0020Q1958230020c9v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0020Q1958230020c9v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0020Q1958230020c9v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0020Q1958230020c9v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-20"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-20"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-20-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-21",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-21",
       "type": "Canvas",
       "label": {
         "en": [
@@ -934,7 +1050,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0021Q1958230021c10r/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0021Q1958230021c10r/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -942,35 +1058,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p21/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p21/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0021-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0021-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0021Q1958230021c10r/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0021Q1958230021c10r/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0021Q1958230021c10r",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0021Q1958230021c10r",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-21"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-21"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-21-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-22",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-22",
       "type": "Canvas",
       "label": {
         "en": [
@@ -979,7 +1101,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0022Q1958230022c10v/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0022Q1958230022c10v/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -987,35 +1109,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p22/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p22/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0022-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0022-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0022Q1958230022c10v/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0022Q1958230022c10v/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0022Q1958230022c10v",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0022Q1958230022c10v",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-22"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-22"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-22-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-23",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-23",
       "type": "Canvas",
       "label": {
         "en": [
@@ -1024,7 +1152,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0023Q1958230023risguardopostr/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0023Q1958230023risguardopostr/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -1032,35 +1160,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p23/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p23/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0023-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0023-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0023Q1958230023risguardopostr/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0023Q1958230023risguardopostr/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0023Q1958230023risguardopostr",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0023Q1958230023risguardopostr",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-23"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-23"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-23-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-24",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-24",
       "type": "Canvas",
       "label": {
         "en": [
@@ -1069,7 +1203,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0024Q1958230024piattopostv/full/112,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0024Q1958230024piattopostv/full/112,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -1077,35 +1211,41 @@ user: MariaFrancesca6
       "width": 1798,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p24/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p24/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0024-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0024-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0024Q1958230024piattopostv/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0024Q1958230024piattopostv/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2548,
                 "width": 1798,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0024Q1958230024piattopostv",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0024Q1958230024piattopostv",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-24"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-24"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-24-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-25",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-25",
       "type": "Canvas",
       "label": {
         "en": [
@@ -1114,7 +1254,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0025Q1958230025colori/full/128,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0025Q1958230025colori/full/128,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -1122,35 +1262,41 @@ user: MariaFrancesca6
       "width": 2048,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p25/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p25/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0025-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0025-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0025Q1958230025colori/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0025Q1958230025colori/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2819,
                 "width": 2048,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0025Q1958230025colori",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0025Q1958230025colori",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-25"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-25"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-25-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-26",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-26",
       "type": "Canvas",
       "label": {
         "en": [
@@ -1159,7 +1305,7 @@ user: MariaFrancesca6
       },
       "thumbnail": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0026Q1958230026scala/full/128,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0026Q1958230026scala/full/128,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -1167,30 +1313,36 @@ user: MariaFrancesca6
       "width": 2048,
       "items": [
         {
-          "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p26/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/page/p26/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0026-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/annotation/p0026-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0026Q1958230026scala/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0026Q1958230026scala/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2819,
                 "width": 2048,
                 "service": [
                   {
-                    "id": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0026Q1958230026scala",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/0026Q1958230026scala",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://mariafrancesca6.github.io/GR-ek/img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-26"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958/canvas/raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-26"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/mariafrancesca6-github-io-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-raimondigiuseppequadernomanoscrittoidisegniromanidiingresagosto1958-26-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
